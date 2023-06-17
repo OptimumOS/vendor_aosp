@@ -1,7 +1,7 @@
 # Branding
 $(call inherit-product, vendor/aosp/config/branding.mk)
 
-PRODUCT_BRAND ?= PixelExperience
+PRODUCT_BRAND ?= OptimumOS
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -231,8 +231,7 @@ $(call inherit-product, vendor/aosp/config/fonts.mk)
 # GMS
 $(call inherit-product, vendor/gms/products/gms.mk)
 
-# OTA
-$(call inherit-product, vendor/aosp/config/ota.mk)
+
 
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
